@@ -1,0 +1,57 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    background-color: #001244;
+    box-shadow: 0 3px #00081d;
+}
+
+.bg-image{
+    min-height: 100vh;
+    background-color: gray;
+    background-image: url(https://venturebeat.com/wp-content/uploads/2021/05/GettyImages-1291886933-e1624308433688.jpg?fit=2309%2C1154&strip=all);
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.bg-image .front-bg{
+    min-height:  100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#project .card-img{
+    height: 400px;
+}
+
+#map{
+    height: 70vh;
+    width: 100%;
+}
+
+.btn{
+    transition: transform 0.1s ease-out, box-shadow;
+    background-color: #026abe;
+    color: white;
+    box-shadow: 0 5px #024abe;
+}
+
+.btn:hover{
+    color: white;
+    font-weight: bold;
+}
+
+.btn:active{
+    box-shadow: 0 0 0 #024abe;
+    transform: translateY(5px);
+}
+
+#contact i:hover{
+    color: #024abe;
+}
+
+#footer{
+    background-color: #001244;
+}
+.carousel-inner > .carousel-item > img{
+    height: 400px;
+}
