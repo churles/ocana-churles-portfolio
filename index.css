@@ -50,7 +50,7 @@ body{
 }
 
 .bg-image .front-bg{
-    min-height: calc(100vh + 3rem)
+    min-height: calc(100vh + 3rem);
     background-color: rgba(0, 0, 0, 0.5);
 }
 
