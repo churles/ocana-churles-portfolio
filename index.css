@@ -46,11 +46,10 @@ body{
     background-image: url(https://venturebeat.com/wp-content/uploads/2021/05/GettyImages-1291886933-e1624308433688.jpg?fit=2309%2C1154&strip=all);
     background-repeat: no-repeat;
     background-position:center;
-    padding-top: 3rem;
 }
 
 .bg-image .front-bg{
-    min-height: calc(100vh + 3rem);
+    min-height: 100vh;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
